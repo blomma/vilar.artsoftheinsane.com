@@ -545,6 +545,12 @@ p {
   scroll-margin-top: 24px;
 }
 
+/* Standalone privacy-policy page: nothing sits above it, so the divider
+   would render as a stray centred line under the header. */
+.policy-only {
+  border-top: 0;
+}
+
 .policy h2 {
   font-size: clamp(1.5rem, 3vw, 1.95rem);
 }
