@@ -512,10 +512,9 @@ p {
   border-top: 1px solid var(--line-soft);
 }
 
-.closer-mark {
-  width: 72px;
-  height: 72px;
-  border-radius: 17px;
+.closer-watch {
+  position: static;
+  width: clamp(104px, 15vw, 136px);
   margin: 0 auto 26px;
 }
 
